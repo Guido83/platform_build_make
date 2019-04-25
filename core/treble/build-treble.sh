@@ -154,7 +154,7 @@ else
 fi
 
 if  [ $sync == "y" ];then
-        repo init -u https://github.com/BlissRoms/platform_manifest.git -b $romBranch
+        repo init -u https://github.com/Guido83/platform_manifest.git -b $romBranch
         rm -f .repo/local_manifests/replace.xml
 if [ -d $rompath/.repo/local_manifests ] ;then
         cp -r $rompath/build/make/core/treble/treble_manifests/* $rompath/.repo/local_manifests
